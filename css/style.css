@@ -89,11 +89,11 @@ footer {
     border-radius: 8px;
 }
 h3 {
-    color: #333;
+    color: #ffffff;
     margin: 10px 0;
 }
 p {
-    color: #555;
+    color: #ffffff;
 }
 button {
     background-color: #007BFF;
@@ -110,7 +110,7 @@ button:hover {
 
 /* Barra de navegación */
 .navbar {
-    background-color: #004080; /* Color azul tech */
+    background-color: #0a0f1c; /* Color azul tech */
     padding: 10px 0;
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
     position: sticky;
@@ -140,12 +140,12 @@ button:hover {
   }
   
   .nav-menu a:hover {
-    background-color: #0066cc;
+    background-color: #0a0f1c;
     color: #fff;
   }
 
   .navbar {
-    background-color: #004080;
+    background-color: 80#0a0f1c; /* Color azul tech */
     padding: 10px 20px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
     position: sticky;
@@ -157,7 +157,7 @@ button:hover {
   }
   
   .logo img {
-    height: 40px;
+    height: 80px;
   }
   
   .nav-menu {
@@ -169,8 +169,25 @@ button:hover {
     padding: 0;
   }
   
+
+  
   .carousel-item img {
     height: 400px;
     object-fit: cover;
   }
-    
+  .nav-link:hover {
+    color: #00f0ff !important;
+  }
+  
+  .navbar-toggler {
+    border-color: #00f0ff;
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(0, 240, 255, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+  
+  .navbar-techhome {
+    background-color: #0a0f1c !important;
+  }
+  
